@@ -6,7 +6,7 @@ class Clothing(Item):
         super().__init__(id = id)
         self.fabric = fabric
 
-    def get_category(Clothing):
+    def get_category(self):
         return "Clothing"
 
     def __str__(self):

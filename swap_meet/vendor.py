@@ -38,6 +38,9 @@ class Vendor:
             return True
         return False
 
+    def get_by_category(self, category):
+        
+
 
 
 

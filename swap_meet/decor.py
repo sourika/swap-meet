@@ -13,5 +13,4 @@ class Decor(Item):
     def __str__(self):
         return f"An object of type Decor with id {self.id}. It takes up a {self.width} by {self.length} sized space."
 
-    def condition_description(self): # We can omit this method in the subclass—since its behavior isn’t overridden, the parent’s condition_description() is inherited as-is.
-        return super().condition_description() 
+    

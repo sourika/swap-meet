@@ -12,5 +12,4 @@ class Clothing(Item):
     def __str__(self):
         return f"An object of type Clothing with id {self.id}. It is made from {self.fabric} fabric."
     
-    def condition_description(self): # We can omit this method in the subclass—since its behavior isn’t overridden, the parent’s condition_description() is inherited as-is.
-        return super().condition_description()
+    
